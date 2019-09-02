@@ -1,8 +1,10 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+
 def Gauss(x, mu_, sigma_):
     return (1 / np.sqrt(2 * np.pi)) * np.exp(- np.square(x - mu_) / (2 * np.square(sigma_)))
+
 
 np.random.seed(1)
 x_data = 10 * np.random.randn(100000)

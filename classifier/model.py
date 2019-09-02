@@ -1,7 +1,7 @@
 import numpy as np
 import tensorflow as tf
 import matplotlib.pyplot as plt
-from tmy.Machine_Learning.classifier import data_processing
+from Machine_Learning.classifier import data_processing
 
 data = data_processing.load_data(download=False)
 new_data = data_processing.convert2onehot(data)
