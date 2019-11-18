@@ -3,8 +3,8 @@ Make it more robust.
 Stop episode once the finger stop at the final position for 50 steps.
 Feature & reward engineering.
 """
-from tmy.Machine_Learning.robot_arm.part5.env import ArmEnv
-from tmy.Machine_Learning.robot_arm.part5.rl import DDPG
+from env import ArmEnv
+from rl import DDPG
 
 MAX_EPISODES = 500
 MAX_EP_STEPS = 200
